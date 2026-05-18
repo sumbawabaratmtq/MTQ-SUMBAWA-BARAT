@@ -1,0 +1,455 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red46\green49\blue51;\red109\green109\blue109;\red246\green247\blue249;
+\red251\green0\blue7;\red42\green42\blue42;\red20\green67\blue174;\red18\green115\blue126;\red162\green0\blue16;
+\red21\green98\blue39;\red0\green0\blue0;\red186\green6\blue115;\red97\green3\blue173;\red19\green118\blue70;
+\red9\green60\blue148;\red77\green80\blue85;}
+{\*\expandedcolortbl;;\cssrgb\c23529\c25098\c26275;\cssrgb\c50196\c50196\c50196;\cssrgb\c97255\c97647\c98039;
+\cssrgb\c100000\c0\c0;\cssrgb\c21961\c21961\c21961;\cssrgb\c9412\c35294\c73725;\cssrgb\c3529\c52157\c56863;\cssrgb\c70196\c7843\c7059;
+\cssrgb\c7451\c45098\c20000;\cssrgb\c0\c0\c0;\cssrgb\c78824\c15294\c52549;\cssrgb\c46275\c15294\c73333;\cssrgb\c3529\c52549\c34510;
+\cssrgb\c1569\c31765\c64706;\cssrgb\c37255\c38824\c40784;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs26 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\pard\pardeftab720\partightenfactor0
+\cf3 \cb4 \strokec3 <!DOCTYPE\cf5 \strokec5  html\cf3 \strokec3 >\cf2 \cb1 \strokec2 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb4 \strokec6 <\cf7 \strokec7 html\cf2 \strokec2  \cf8 \strokec8 lang\cf6 \strokec6 =\cf9 \strokec9 "id"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cf6 \cb4 \strokec6 <\cf7 \strokec7 head\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb4     \cf6 \strokec6 <\cf7 \strokec7 meta\cf2 \strokec2  \cf8 \strokec8 charset\cf6 \strokec6 =\cf9 \strokec9 "UTF-8"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4     \cf6 \strokec6 <\cf7 \strokec7 meta\cf2 \strokec2  \cf8 \strokec8 name\cf6 \strokec6 =\cf9 \strokec9 "viewport"\cf2 \strokec2  \cf8 \strokec8 content\cf6 \strokec6 =\cf9 \strokec9 "width=device-width, initial-scale=1.0"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4     \cf6 \strokec6 <\cf7 \strokec7 title\cf6 \strokec6 >\cf2 \strokec2 LPTQ Kabupaten Sumbawa Barat\cf6 \strokec6 </\cf7 \strokec7 title\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4     \cf10 \strokec10 <!-- Tailwind CSS -->\cf2 \cb1 \strokec2 \
+\cb4     \cf6 \strokec6 <\cf7 \strokec7 script\cf2 \strokec2  \cf8 \strokec8 src\cf6 \strokec6 =\cf9 \strokec9 "https://cdn.tailwindcss.com"\cf6 \strokec6 ></\cf7 \strokec7 script\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4     \cf10 \strokec10 <!-- FontAwesome -->\cf2 \cb1 \strokec2 \
+\cb4     \cf6 \strokec6 <\cf7 \strokec7 link\cf2 \strokec2  \cf8 \strokec8 rel\cf6 \strokec6 =\cf9 \strokec9 "stylesheet"\cf2 \strokec2  \cf8 \strokec8 href\cf6 \strokec6 =\cf9 \strokec9 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4     \cf6 \strokec6 <\cf7 \strokec7 script\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4         \strokec11 tailwind\strokec2 .\strokec11 config\strokec2  = \{ \strokec11 theme\strokec2 : \{ \strokec11 extend\strokec2 : \{ \strokec11 colors\strokec2 : \{ \strokec11 mtq\strokec2 : \{ \strokec11 light\strokec2 : \cf9 \strokec9 '#e8f5e9'\cf2 \strokec2 , \cf12 \strokec12 DEFAULT\cf2 \strokec2 : \cf9 \strokec9 '#2e7d32'\cf2 \strokec2 , \strokec11 dark\strokec2 : \cf9 \strokec9 '#1b5e20'\cf2 \strokec2  \} \} \} \} \}\cb1 \
+\cb4     \cf6 \strokec6 </\cf7 \strokec7 script\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4     \cf6 \strokec6 <\cf7 \strokec7 style\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4         \cf13 \strokec13 .loader\cf2 \strokec2  \{ \cf8 \strokec8 border:\cf2 \strokec2  \cf14 \strokec14 4px\cf2 \strokec2  \cf9 \strokec9 solid\cf2 \strokec2  \cf15 \strokec15 #f3f3f3\cf2 \strokec2 ; \cf8 \strokec8 border-top:\cf2 \strokec2  \cf14 \strokec14 4px\cf2 \strokec2  \cf9 \strokec9 solid\cf2 \strokec2  \cf15 \strokec15 #2e7d32\cf2 \strokec2 ; \cf8 \strokec8 border-radius:\cf2 \strokec2  \cf14 \strokec14 50%\cf2 \strokec2 ; \cf8 \strokec8 width:\cf2 \strokec2  \cf14 \strokec14 40px\cf2 \strokec2 ; \cf8 \strokec8 height:\cf2 \strokec2  \cf14 \strokec14 40px\cf2 \strokec2 ; \cf8 \strokec8 animation:\cf2 \strokec2  \cf9 \strokec9 spin\cf2 \strokec2  \cf14 \strokec14 1s\cf2 \strokec2  \cf9 \strokec9 linear\cf2 \strokec2  \cf9 \strokec9 infinite\cf2 \strokec2 ; \}\cb1 \
+\cb4         \cf7 \strokec7 @keyframes\cf2 \strokec2  \cf9 \strokec9 spin\cf2 \strokec2  \{ \cf14 \strokec14 0%\cf2 \strokec2  \{ \cf8 \strokec8 transform:\cf2 \strokec2  \cf9 \strokec9 rotate(\cf14 \strokec14 0deg\cf9 \strokec9 )\cf2 \strokec2 ; \} \cf14 \strokec14 100%\cf2 \strokec2  \{ \cf8 \strokec8 transform:\cf2 \strokec2  \cf9 \strokec9 rotate(\cf14 \strokec14 360deg\cf9 \strokec9 )\cf2 \strokec2 ; \} \}\cb1 \
+\cb4         \cf13 \strokec13 .hidden\cf2 \strokec2  \{ \cf8 \strokec8 display:\cf2 \strokec2  \cf9 \strokec9 none\cf2 \strokec2  \cf7 \strokec7 !important\cf2 \strokec2 ; \}\cb1 \
+\cb4         \cf13 \strokec13 #toast\cf2 \strokec2  \{ \cf8 \strokec8 visibility:\cf2 \strokec2  \cf9 \strokec9 hidden\cf2 \strokec2 ; \cf8 \strokec8 min-width:\cf2 \strokec2  \cf14 \strokec14 250px\cf2 \strokec2 ; \cf8 \strokec8 background-color:\cf2 \strokec2  \cf15 \strokec15 #333\cf2 \strokec2 ; \cf8 \strokec8 color:\cf2 \strokec2  \cf15 \strokec15 #fff\cf2 \strokec2 ; \cf8 \strokec8 text-align:\cf2 \strokec2  \cf9 \strokec9 center\cf2 \strokec2 ; \cf8 \strokec8 border-radius:\cf2 \strokec2  \cf14 \strokec14 8px\cf2 \strokec2 ; \cf8 \strokec8 padding:\cf2 \strokec2  \cf14 \strokec14 16px\cf2 \strokec2 ; \cf8 \strokec8 position:\cf2 \strokec2  \cf9 \strokec9 fixed\cf2 \strokec2 ; \cf8 \strokec8 z-index:\cf2 \strokec2  \cf14 \strokec14 1000\cf2 \strokec2 ; \cf8 \strokec8 left:\cf2 \strokec2  \cf14 \strokec14 50%\cf2 \strokec2 ; \cf8 \strokec8 bottom:\cf2 \strokec2  \cf14 \strokec14 30px\cf2 \strokec2 ; \cf8 \strokec8 transform:\cf2 \strokec2  \cf9 \strokec9 translateX(\cf14 \strokec14 -50%\cf9 \strokec9 )\cf2 \strokec2 ; \cf8 \strokec8 opacity:\cf2 \strokec2  \cf14 \strokec14 0\cf2 \strokec2 ; \cf8 \strokec8 transition:\cf2 \strokec2  \cf9 \strokec9 opacity\cf2 \strokec2  \cf14 \strokec14 0.5s\cf2 \strokec2 , \cf9 \strokec9 bottom\cf2 \strokec2  \cf14 \strokec14 0.5s\cf2 \strokec2 ; \}\cb1 \
+\cb4         \cf13 \strokec13 #toast.show\cf2 \strokec2  \{ \cf8 \strokec8 visibility:\cf2 \strokec2  \cf9 \strokec9 visible\cf2 \strokec2 ; \cf8 \strokec8 opacity:\cf2 \strokec2  \cf14 \strokec14 1\cf2 \strokec2 ; \cf8 \strokec8 bottom:\cf2 \strokec2  \cf14 \strokec14 50px\cf2 \strokec2 ; \}\cb1 \
+\cb4         \cf13 \strokec13 #toast.success\cf2 \strokec2  \{ \cf8 \strokec8 background-color:\cf2 \strokec2  \cf15 \strokec15 #2e7d32\cf2 \strokec2 ; \}\cb1 \
+\cb4         \cf13 \strokec13 #toast.error\cf2 \strokec2  \{ \cf8 \strokec8 background-color:\cf2 \strokec2  \cf15 \strokec15 #c62828\cf2 \strokec2 ; \}\cb1 \
+\cb4     \cf6 \strokec6 </\cf7 \strokec7 style\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb4 \strokec6 </\cf7 \strokec7 head\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cf6 \cb4 \strokec6 <\cf7 \strokec7 body\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "bg-gray-50 text-gray-800 font-sans antialiased min-h-screen flex flex-col"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb4     \cf6 \strokec6 <\cf7 \strokec7 header\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "bg-mtq-dark text-white shadow-md"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4         \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "container mx-auto px-4 py-4 flex items-center justify-between"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4             \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "flex items-center space-x-3"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 <\cf7 \strokec7 i\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "fa-solid fa-book-quran text-2xl"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cf6 \strokec6 <\cf7 \strokec7 h1\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "text-lg font-bold leading-tight"\cf6 \strokec6 >\cf2 \strokec2 Portal LPTQ\cf6 \strokec6 </\cf7 \strokec7 h1\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cf6 \strokec6 <\cf7 \strokec7 p\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "text-xs text-green-200"\cf6 \strokec6 >\cf2 \strokec2 Kabupaten Sumbawa Barat\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4             \cf6 \strokec6 <\cf7 \strokec7 button\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "btnLogout"\cf2 \strokec2  \cf8 \strokec8 onclick\cf6 \strokec6 =\cf9 \strokec9 "logout()"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "hidden text-sm bg-red-600 hover:bg-red-700 text-white py-1 px-3 rounded shadow transition"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 <\cf7 \strokec7 i\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "fa-solid fa-right-from-bracket mr-1"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf2 \strokec2  Keluar\cb1 \
+\cb4             \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4     \cf6 \strokec6 </\cf7 \strokec7 header\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\
+\cb4     \cf6 \strokec6 <\cf7 \strokec7 main\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "flex-grow container mx-auto px-4 py-8 flex justify-center items-center"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4         \cb1 \
+\cb4         \cf10 \strokec10 <!-- HOME / SELECTION -->\cf2 \cb1 \strokec2 \
+\cb4         \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "view-home"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "w-full max-w-md bg-white rounded-xl shadow-lg p-6 text-center"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4             \cb1 \
+\cb4             \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "mb-6 text-mtq-dark border-b border-gray-100 pb-4"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 <\cf7 \strokec7 h2\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "text-xl font-bold"\cf6 \strokec6 >\cf2 \strokec2 Portal Panitia & Official\cf6 \strokec6 </\cf7 \strokec7 h2\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 <\cf7 \strokec7 p\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "text-gray-500 text-sm mt-1"\cf6 \strokec6 >\cf2 \strokec2 Database Peserta MTQ Kab.Sumbawa Barat\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4             \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "space-y-4 mt-2"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 <\cf7 \strokec7 button\cf2 \strokec2  \cf8 \strokec8 onclick\cf6 \strokec6 =\cf9 \strokec9 "showView('login', 'official')"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "w-full bg-mtq hover:bg-mtq-dark text-white font-semibold py-3 px-4 rounded-lg shadow transition flex items-center justify-center"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cf6 \strokec6 <\cf7 \strokec7 i\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "fa-solid fa-users mr-2"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf2 \strokec2  Masuk Sebagai Official\cb1 \
+\cb4                 \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "relative py-2"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "absolute inset-0 flex items-center"\cf6 \strokec6 ><\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "w-full border-t border-gray-300"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "relative flex justify-center"\cf6 \strokec6 ><\cf7 \strokec7 span\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "bg-white px-2 text-sm text-gray-500"\cf6 \strokec6 >\cf2 \strokec2 Akses Pusat\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 <\cf7 \strokec7 button\cf2 \strokec2  \cf8 \strokec8 onclick\cf6 \strokec6 =\cf9 \strokec9 "showView('login', 'admin')"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "w-full border-2 border-mtq text-mtq hover:bg-mtq hover:text-white font-semibold py-3 px-4 rounded-lg transition flex items-center justify-center"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cf6 \strokec6 <\cf7 \strokec7 i\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "fa-solid fa-user-shield mr-2"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf2 \strokec2  Masuk Sebagai Panitia (Admin)\cb1 \
+\cb4                 \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\
+\cb4         \cf10 \strokec10 <!-- LOGIN FORM -->\cf2 \cb1 \strokec2 \
+\cb4         \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "view-login"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "hidden w-full max-w-md bg-white rounded-xl shadow-lg p-6"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4             \cf6 \strokec6 <\cf7 \strokec7 button\cf2 \strokec2  \cf8 \strokec8 onclick\cf6 \strokec6 =\cf9 \strokec9 "showView('home')"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "text-gray-500 hover:text-gray-800 mb-4 inline-flex items-center text-sm"\cf6 \strokec6 ><\cf7 \strokec7 i\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "fa-solid fa-arrow-left mr-1"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf2 \strokec2  Kembali\cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4             \cb1 \
+\cb4             \cf6 \strokec6 <\cf7 \strokec7 h2\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "login-title"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "text-xl font-bold text-mtq-dark mb-6 text-center border-b pb-3"\cf6 \strokec6 >\cf2 \strokec2 Login\cf6 \strokec6 </\cf7 \strokec7 h2\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4             \cb1 \
+\cb4             \cf6 \strokec6 <\cf7 \strokec7 form\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "formLogin"\cf2 \strokec2  \cf8 \strokec8 onsubmit\cf6 \strokec6 =\cf9 \strokec9 "handleLogin(event)"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "mb-4"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cf6 \strokec6 <\cf7 \strokec7 label\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "block text-gray-700 text-sm font-bold mb-2"\cf6 \strokec6 >\cf2 \strokec2 Username\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cf6 \strokec6 <\cf7 \strokec7 input\cf2 \strokec2  \cf8 \strokec8 type\cf6 \strokec6 =\cf9 \strokec9 "text"\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "loginId"\cf2 \strokec2  \cf8 \strokec8 required\cf2 \strokec2  \cf8 \strokec8 autocomplete\cf6 \strokec6 =\cf9 \strokec9 "off"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "shadow appearance-none border rounded w-full py-3 px-3 text-gray-700"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "mb-6"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cf6 \strokec6 <\cf7 \strokec7 label\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "block text-gray-700 text-sm font-bold mb-2"\cf6 \strokec6 >\cf2 \strokec2 Password\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cf6 \strokec6 <\cf7 \strokec7 input\cf2 \strokec2  \cf8 \strokec8 type\cf6 \strokec6 =\cf9 \strokec9 "password"\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "loginPass"\cf2 \strokec2  \cf8 \strokec8 required\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "shadow appearance-none border rounded w-full py-3 px-3 text-gray-700"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 <\cf7 \strokec7 button\cf2 \strokec2  \cf8 \strokec8 type\cf6 \strokec6 =\cf9 \strokec9 "submit"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "w-full bg-mtq hover:bg-mtq-dark text-white font-bold py-3 px-4 rounded-lg"\cf6 \strokec6 >\cf2 \strokec2 Masuk\cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4             \cf6 \strokec6 </\cf7 \strokec7 form\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\
+\cb4         \cf10 \strokec10 <!-- DASHBOARD -->\cf2 \cb1 \strokec2 \
+\cb4         \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "view-dashboard"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "hidden w-full max-w-6xl bg-white rounded-xl shadow-lg p-6"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4             \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "border-b-2 border-mtq pb-4 mb-6 flex flex-col md:flex-row justify-between md:items-end gap-4"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cf6 \strokec6 <\cf7 \strokec7 h2\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "text-2xl font-bold text-gray-800"\cf6 \strokec6 >\cf2 \strokec2 Database Peserta\cf6 \strokec6 </\cf7 \strokec7 h2\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cf6 \strokec6 <\cf7 \strokec7 p\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "text-gray-600"\cf6 \strokec6 >\cf2 \strokec2 Wilayah: \cf6 \strokec6 <\cf7 \strokec7 span\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "dash-wilayah"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "font-bold text-mtq"\cf6 \strokec6 ></\cf7 \strokec7 span\cf6 \strokec6 ></\cf7 \strokec7 p\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "flex gap-2 flex-wrap"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cf6 \strokec6 <\cf7 \strokec7 button\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "btnTambahPeserta"\cf2 \strokec2  \cf8 \strokec8 onclick\cf6 \strokec6 =\cf9 \strokec9 "openAddModal()"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "hidden bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold py-2 px-4 rounded shadow"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                         \cf6 \strokec6 <\cf7 \strokec7 i\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "fa-solid fa-user-plus mr-1"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf2 \strokec2  Tambah Data & Berkas\cb1 \
+\cb4                     \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cf6 \strokec6 <\cf7 \strokec7 button\cf2 \strokec2  \cf8 \strokec8 onclick\cf6 \strokec6 =\cf9 \strokec9 "loadDashboardData()"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-semibold py-2 px-4 border rounded shadow-sm"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                         \cf6 \strokec6 <\cf7 \strokec7 i\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "fa-solid fa-arrows-rotate mr-1"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf2 \strokec2  Refresh\cb1 \
+\cb4                     \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4             \cb1 \
+\cb4             \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "overflow-x-auto rounded-lg border border-gray-200"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 <\cf7 \strokec7 table\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "min-w-full bg-white text-left text-sm whitespace-nowrap"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cf6 \strokec6 <\cf7 \strokec7 thead\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "bg-gray-100 text-gray-700 uppercase font-bold text-xs"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                         \cf6 \strokec6 <\cf7 \strokec7 tr\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                             \cf6 \strokec6 <\cf7 \strokec7 th\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "py-3 px-4 border-b"\cf6 \strokec6 >\cf2 \strokec2 ID & NIK\cf6 \strokec6 </\cf7 \strokec7 th\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                             \cf6 \strokec6 <\cf7 \strokec7 th\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "py-3 px-4 border-b"\cf6 \strokec6 >\cf2 \strokec2 Nama & Cabang\cf6 \strokec6 </\cf7 \strokec7 th\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                             \cf6 \strokec6 <\cf7 \strokec7 th\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "py-3 px-4 border-b text-center"\cf6 \strokec6 >\cf2 \strokec2 Status Berkas\cf6 \strokec6 </\cf7 \strokec7 th\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                             \cf6 \strokec6 <\cf7 \strokec7 th\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "py-3 px-4 border-b text-center"\cf6 \strokec6 >\cf2 \strokec2 Aksi\cf6 \strokec6 </\cf7 \strokec7 th\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                         \cf6 \strokec6 </\cf7 \strokec7 tr\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cf6 \strokec6 </\cf7 \strokec7 thead\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cf6 \strokec6 <\cf7 \strokec7 tbody\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "table-body"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "text-gray-700 align-top"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                         \cf6 \strokec6 <\cf7 \strokec7 tr\cf6 \strokec6 ><\cf7 \strokec7 td\cf2 \strokec2  \cf8 \strokec8 colspan\cf6 \strokec6 =\cf9 \strokec9 "4"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "text-center py-6 text-gray-500"\cf6 \strokec6 >\cf2 \strokec2 Memuat data...\cf6 \strokec6 </\cf7 \strokec7 td\cf6 \strokec6 ></\cf7 \strokec7 tr\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cf6 \strokec6 </\cf7 \strokec7 tbody\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 </\cf7 \strokec7 table\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\
+\cb4     \cf6 \strokec6 </\cf7 \strokec7 main\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\
+\cb4     \cf10 \strokec10 <!-- Modal Tambah Peserta & Berkas Terpadu -->\cf2 \cb1 \strokec2 \
+\cb4     \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "modal-add"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "hidden fixed inset-0 bg-gray-900 bg-opacity-80 z-40 flex justify-center items-center p-2 sm:p-4"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4         \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "bg-white rounded-xl shadow-2xl w-full max-w-4xl overflow-hidden max-h-[95vh] flex flex-col"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4             \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "bg-mtq text-white px-5 py-4 flex justify-between items-center"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 <\cf7 \strokec7 h3\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "font-bold text-lg"\cf6 \strokec6 ><\cf7 \strokec7 i\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "fa-solid fa-address-card mr-2"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf2 \strokec2 Input Biodata & Berkas\cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 <\cf7 \strokec7 button\cf2 \strokec2  \cf8 \strokec8 onclick\cf6 \strokec6 =\cf9 \strokec9 "closeAddModal()"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "text-white hover:text-gray-200"\cf6 \strokec6 ><\cf7 \strokec7 i\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "fa-solid fa-xmark text-xl"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 ></\cf7 \strokec7 button\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4             \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "p-5 overflow-y-auto bg-gray-50"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 <\cf7 \strokec7 form\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "formAdd"\cf2 \strokec2  \cf8 \strokec8 onsubmit\cf6 \strokec6 =\cf9 \strokec9 "handleAddPeserta(event)"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "flex flex-col md:flex-row gap-6"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                         \cb1 \
+\cb4                         \cf10 \strokec10 <!-- Kolom Kiri: Biodata -->\cf2 \cb1 \strokec2 \
+\cb4                         \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "flex-1 bg-white p-4 rounded border border-gray-200 shadow-sm"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                             \cf6 \strokec6 <\cf7 \strokec7 h4\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "font-bold text-mtq-dark mb-4 border-b pb-2"\cf6 \strokec6 ><\cf7 \strokec7 i\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "fa-solid fa-user mr-1"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf2 \strokec2  Data Diri Peserta\cf6 \strokec6 </\cf7 \strokec7 h4\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                             \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "grid grid-cols-1 sm:grid-cols-2 gap-3"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                     \cf6 \strokec6 <\cf7 \strokec7 label\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "block text-xs font-bold text-gray-700 mb-1"\cf6 \strokec6 >\cf2 \strokec2 NIK (16 Digit)\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                     \cf6 \strokec6 <\cf7 \strokec7 input\cf2 \strokec2  \cf8 \strokec8 type\cf6 \strokec6 =\cf9 \strokec9 "number"\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "addNik"\cf2 \strokec2  \cf8 \strokec8 required\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "border rounded w-full py-1.5 px-3 text-sm focus:ring-2 focus:ring-mtq"\cf2 \strokec2  \cf8 \strokec8 placeholder\cf6 \strokec6 =\cf9 \strokec9 "Contoh: 5207..."\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                     \cf6 \strokec6 <\cf7 \strokec7 label\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "block text-xs font-bold text-gray-700 mb-1"\cf6 \strokec6 >\cf2 \strokec2 Nama Lengkap\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                     \cf6 \strokec6 <\cf7 \strokec7 input\cf2 \strokec2  \cf8 \strokec8 type\cf6 \strokec6 =\cf9 \strokec9 "text"\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "addNama"\cf2 \strokec2  \cf8 \strokec8 required\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "border rounded w-full py-1.5 px-3 text-sm focus:ring-2 focus:ring-mtq"\cf2 \strokec2  \cf8 \strokec8 placeholder\cf6 \strokec6 =\cf9 \strokec9 "Sesuai KTP/KK"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                     \cf6 \strokec6 <\cf7 \strokec7 label\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "block text-xs font-bold text-gray-700 mb-1"\cf6 \strokec6 >\cf2 \strokec2 Tempat Lahir\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                     \cf6 \strokec6 <\cf7 \strokec7 input\cf2 \strokec2  \cf8 \strokec8 type\cf6 \strokec6 =\cf9 \strokec9 "text"\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "addTempat"\cf2 \strokec2  \cf8 \strokec8 required\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "border rounded w-full py-1.5 px-3 text-sm focus:ring-2 focus:ring-mtq"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                     \cf6 \strokec6 <\cf7 \strokec7 label\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "block text-xs font-bold text-gray-700 mb-1"\cf6 \strokec6 >\cf2 \strokec2 Tanggal Lahir\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                     \cf6 \strokec6 <\cf7 \strokec7 input\cf2 \strokec2  \cf8 \strokec8 type\cf6 \strokec6 =\cf9 \strokec9 "date"\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "addTgl"\cf2 \strokec2  \cf8 \strokec8 required\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "border rounded w-full py-1.5 px-3 text-sm focus:ring-2 focus:ring-mtq"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                     \cf6 \strokec6 <\cf7 \strokec7 label\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "block text-xs font-bold text-gray-700 mb-1"\cf6 \strokec6 >\cf2 \strokec2 Jenis Kelamin\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                     \cf6 \strokec6 <\cf7 \strokec7 select\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "addJk"\cf2 \strokec2  \cf8 \strokec8 required\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "border rounded w-full py-1.5 px-3 text-sm bg-white focus:ring-2 focus:ring-mtq"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                         \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 ""\cf6 \strokec6 >\cf2 \strokec2 -- Pilih --\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                         \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Laki-laki"\cf6 \strokec6 >\cf2 \strokec2 Laki-laki\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                         \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Perempuan"\cf6 \strokec6 >\cf2 \strokec2 Perempuan\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                     \cf6 \strokec6 </\cf7 \strokec7 select\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                     \cf6 \strokec6 <\cf7 \strokec7 label\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "block text-xs font-bold text-gray-700 mb-1"\cf6 \strokec6 >\cf2 \strokec2 No. HP Aktif\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                     \cf6 \strokec6 <\cf7 \strokec7 input\cf2 \strokec2  \cf8 \strokec8 type\cf6 \strokec6 =\cf9 \strokec9 "text"\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "addTelp"\cf2 \strokec2  \cf8 \strokec8 required\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "border rounded w-full py-1.5 px-3 text-sm focus:ring-2 focus:ring-mtq"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "sm:col-span-2"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                     \cf6 \strokec6 <\cf7 \strokec7 label\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "block text-xs font-bold text-gray-700 mb-1"\cf6 \strokec6 >\cf2 \strokec2 Alamat Lengkap\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                     \cf6 \strokec6 <\cf7 \strokec7 textarea\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "addAlamat"\cf2 \strokec2  \cf8 \strokec8 required\cf2 \strokec2  \cf8 \strokec8 rows\cf6 \strokec6 =\cf9 \strokec9 "2"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "border rounded w-full py-1.5 px-3 text-sm focus:ring-2 focus:ring-mtq"\cf2 \strokec2  \cf8 \strokec8 placeholder\cf6 \strokec6 =\cf9 \strokec9 "Jalan, RT/RW, Desa/Kelurahan"\cf6 \strokec6 ></\cf7 \strokec7 textarea\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "sm:col-span-2 mt-2"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                     \cf6 \strokec6 <\cf7 \strokec7 label\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "block text-sm font-bold text-mtq-dark mb-1"\cf6 \strokec6 >\cf2 \strokec2 Cabang Lomba MTQ\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                     \cf6 \strokec6 <\cf7 \strokec7 select\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "addCabang"\cf2 \strokec2  \cf8 \strokec8 required\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "border-2 border-mtq rounded w-full py-2 px-3 text-sm bg-blue-50 focus:ring-2 focus:ring-mtq font-semibold"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                         \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 ""\cf6 \strokec6 >\cf2 \strokec2 -- PILIH CABANG LOMBA LENGKAP --\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                         \cf6 \strokec6 <\cf7 \strokec7 optgroup\cf2 \strokec2  \cf8 \strokec8 label\cf6 \strokec6 =\cf9 \strokec9 "TILAWAH"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Tilawah Anak-anak"\cf6 \strokec6 >\cf2 \strokec2 Tilawah Anak-anak\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Tilawah Remaja"\cf6 \strokec6 >\cf2 \strokec2 Tilawah Remaja\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Tilawah Dewasa"\cf6 \strokec6 >\cf2 \strokec2 Tilawah Dewasa\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Tilawah Tunanetra"\cf6 \strokec6 >\cf2 \strokec2 Tilawah Tunanetra\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                         \cf6 \strokec6 </\cf7 \strokec7 optgroup\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                         \cf6 \strokec6 <\cf7 \strokec7 optgroup\cf2 \strokec2  \cf8 \strokec8 label\cf6 \strokec6 =\cf9 \strokec9 "QIRA'AT AL-QUR'AN"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Qira'at Murattal Remaja"\cf6 \strokec6 >\cf2 \strokec2 Qira'at Murattal Remaja\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Qira'at Murattal Dewasa"\cf6 \strokec6 >\cf2 \strokec2 Qira'at Murattal Dewasa\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Qira'at Mujawwad Dewasa"\cf6 \strokec6 >\cf2 \strokec2 Qira'at Mujawwad Dewasa\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                         \cf6 \strokec6 </\cf7 \strokec7 optgroup\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                         \cf6 \strokec6 <\cf7 \strokec7 optgroup\cf2 \strokec2  \cf8 \strokec8 label\cf6 \strokec6 =\cf9 \strokec9 "HAFALAN / HIFDZIL QUR'AN"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Hifdzil 1 Juz & Tilawah"\cf6 \strokec6 >\cf2 \strokec2 Hifdzil 1 Juz & Tilawah\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Hifdzil 5 Juz & Tilawah"\cf6 \strokec6 >\cf2 \strokec2 Hifdzil 5 Juz & Tilawah\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Hifdzil 10 Juz"\cf6 \strokec6 >\cf2 \strokec2 Hifdzil 10 Juz\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Hifdzil 20 Juz"\cf6 \strokec6 >\cf2 \strokec2 Hifdzil 20 Juz\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Hifdzil 30 Juz"\cf6 \strokec6 >\cf2 \strokec2 Hifdzil 30 Juz\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                         \cf6 \strokec6 </\cf7 \strokec7 optgroup\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                         \cf6 \strokec6 <\cf7 \strokec7 optgroup\cf2 \strokec2  \cf8 \strokec8 label\cf6 \strokec6 =\cf9 \strokec9 "TAFSIR AL-QUR'AN"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Tafsir Bahasa Arab"\cf6 \strokec6 >\cf2 \strokec2 Tafsir Bahasa Arab\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Tafsir Bahasa Indonesia"\cf6 \strokec6 >\cf2 \strokec2 Tafsir Bahasa Indonesia\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Tafsir Bahasa Inggris"\cf6 \strokec6 >\cf2 \strokec2 Tafsir Bahasa Inggris\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                         \cf6 \strokec6 </\cf7 \strokec7 optgroup\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                         \cf6 \strokec6 <\cf7 \strokec7 optgroup\cf2 \strokec2  \cf8 \strokec8 label\cf6 \strokec6 =\cf9 \strokec9 "SENI & ILMIAH"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Tartil Al-Qur'an"\cf6 \strokec6 >\cf2 \strokec2 Tartil Al-Qur'an\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Fahmil Qur'an"\cf6 \strokec6 >\cf2 \strokec2 Fahmil Qur'an\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Syahril Qur'an"\cf6 \strokec6 >\cf2 \strokec2 Syahril Qur'an\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Kaligrafi Naskah"\cf6 \strokec6 >\cf2 \strokec2 Kaligrafi Naskah\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Kaligrafi Hiasan Mushaf"\cf6 \strokec6 >\cf2 \strokec2 Kaligrafi Hiasan Mushaf\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Kaligrafi Dekorasi"\cf6 \strokec6 >\cf2 \strokec2 Kaligrafi Dekorasi\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "Kaligrafi Kontemporer"\cf6 \strokec6 >\cf2 \strokec2 Kaligrafi Kontemporer\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                             \cf6 \strokec6 <\cf7 \strokec7 option\cf2 \strokec2  \cf8 \strokec8 value\cf6 \strokec6 =\cf9 \strokec9 "KTIQ / Karya Tulis Ilmiah"\cf6 \strokec6 >\cf2 \strokec2 KTIQ / Karya Tulis Ilmiah\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                         \cf6 \strokec6 </\cf7 \strokec7 optgroup\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                     \cf6 \strokec6 </\cf7 \strokec7 select\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\
+\cb4                         \cf10 \strokec10 <!-- Kolom Kanan: Upload Berkas -->\cf2 \cb1 \strokec2 \
+\cb4                         \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "flex-1 bg-white p-4 rounded border border-gray-200 shadow-sm"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                             \cf6 \strokec6 <\cf7 \strokec7 h4\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "font-bold text-blue-700 mb-4 border-b pb-2"\cf6 \strokec6 ><\cf7 \strokec7 i\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "fa-solid fa-cloud-arrow-up mr-1"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf2 \strokec2  Lampiran Berkas\cf6 \strokec6 </\cf7 \strokec7 h4\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                             \cb1 \
+\cb4                             \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "mb-4"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 <\cf7 \strokec7 label\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "block text-xs font-bold text-gray-700 mb-1"\cf6 \strokec6 >\cf2 \strokec2 1. Pas Foto Berwarna \cf6 \strokec6 <\cf7 \strokec7 span\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "text-red-500"\cf6 \strokec6 >\cf2 \strokec2 *\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 ></\cf7 \strokec7 label\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 <\cf7 \strokec7 input\cf2 \strokec2  \cf8 \strokec8 type\cf6 \strokec6 =\cf9 \strokec9 "file"\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "addFoto"\cf2 \strokec2  \cf8 \strokec8 accept\cf6 \strokec6 =\cf9 \strokec9 "image/*"\cf2 \strokec2  \cf8 \strokec8 required\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "w-full text-xs text-gray-500 file:mr-4 file:py-1 file:px-3 file:rounded file:border-0 file:bg-blue-100 file:text-blue-700 file:font-semibold border rounded bg-gray-50"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                             \cb1 \
+\cb4                             \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "mb-4"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 <\cf7 \strokec7 label\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "block text-xs font-bold text-gray-700 mb-1"\cf6 \strokec6 >\cf2 \strokec2 2. Kartu Keluarga (KK) \cf6 \strokec6 <\cf7 \strokec7 span\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "text-red-500"\cf6 \strokec6 >\cf2 \strokec2 *\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 ></\cf7 \strokec7 label\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 <\cf7 \strokec7 input\cf2 \strokec2  \cf8 \strokec8 type\cf6 \strokec6 =\cf9 \strokec9 "file"\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "addKk"\cf2 \strokec2  \cf8 \strokec8 accept\cf6 \strokec6 =\cf9 \strokec9 "image/*,.pdf"\cf2 \strokec2  \cf8 \strokec8 required\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "w-full text-xs text-gray-500 file:mr-4 file:py-1 file:px-3 file:rounded file:border-0 file:bg-blue-100 file:text-blue-700 file:font-semibold border rounded bg-gray-50"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                             \cb1 \
+\cb4                             \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "mb-2 bg-yellow-50 p-3 rounded border border-yellow-200"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 <\cf7 \strokec7 label\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "block text-xs font-bold text-gray-800 mb-1"\cf6 \strokec6 >\cf2 \strokec2 3. KTP (Opsional)\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 <\cf7 \strokec7 p\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "text-[11px] text-gray-600 italic mb-2"\cf6 \strokec6 >\cf2 \strokec2 Kosongkan bagian ini jika peserta masih di bawah umur (Belum memiliki KTP).\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 <\cf7 \strokec7 input\cf2 \strokec2  \cf8 \strokec8 type\cf6 \strokec6 =\cf9 \strokec9 "file"\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "addKtp"\cf2 \strokec2  \cf8 \strokec8 accept\cf6 \strokec6 =\cf9 \strokec9 "image/*,.pdf"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "w-full text-xs text-gray-500 file:mr-4 file:py-1 file:px-3 file:rounded file:border-0 file:bg-yellow-100 file:text-yellow-800 file:font-semibold border rounded bg-white"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\
+\cb4                             \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "mt-8 text-xs text-gray-500 text-center bg-gray-100 p-2 rounded"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                                 \cf6 \strokec6 <\cf7 \strokec7 i\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "fa-solid fa-circle-info text-blue-500"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf2 \strokec2  Pastikan ukuran foto/file tidak terlalu besar agar proses upload berjalan cepat.\cb1 \
+\cb4                             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\
+\cb4                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cb1 \
+\cb4                     \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "flex justify-end gap-3 mt-6 border-t pt-4"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                         \cf6 \strokec6 <\cf7 \strokec7 button\cf2 \strokec2  \cf8 \strokec8 type\cf6 \strokec6 =\cf9 \strokec9 "button"\cf2 \strokec2  \cf8 \strokec8 onclick\cf6 \strokec6 =\cf9 \strokec9 "closeAddModal()"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2.5 px-6 rounded"\cf6 \strokec6 >\cf2 \strokec2 Batal\cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                         \cf6 \strokec6 <\cf7 \strokec7 button\cf2 \strokec2  \cf8 \strokec8 type\cf6 \strokec6 =\cf9 \strokec9 "submit"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "bg-mtq hover:bg-mtq-dark text-white font-bold py-2.5 px-6 rounded shadow-lg flex items-center"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                             \cf6 \strokec6 <\cf7 \strokec7 i\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "fa-solid fa-paper-plane mr-2"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf2 \strokec2  Simpan & Upload Berkas\cb1 \
+\cb4                         \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4                 \cf6 \strokec6 </\cf7 \strokec7 form\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\
+\cb4     \cf10 \strokec10 <!-- Loader & Toast -->\cf2 \cb1 \strokec2 \
+\cb4     \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "loader-overlay"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "hidden fixed inset-0 bg-gray-900 bg-opacity-80 z-50 flex flex-col justify-center items-center"\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4         \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "loader mb-4"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4         \cf6 \strokec6 <\cf7 \strokec7 p\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "loader-text"\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "text-white font-semibold tracking-wider animate-pulse text-center px-4"\cf6 \strokec6 >\cf2 \strokec2 Memproses...\cf6 \strokec6 <\cf7 \strokec7 br\cf6 \strokec6 ><\cf7 \strokec7 span\cf2 \strokec2  \cf8 \strokec8 class\cf6 \strokec6 =\cf9 \strokec9 "text-sm font-normal text-gray-300"\cf6 \strokec6 >\cf2 \strokec2 Jangan tutup atau refresh halaman ini!\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 ></\cf7 \strokec7 p\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4     \cf6 \strokec6 <\cf7 \strokec7 div\cf2 \strokec2  \cf8 \strokec8 id\cf6 \strokec6 =\cf9 \strokec9 "toast"\cf6 \strokec6 >\cf2 \strokec2 Notifikasi\cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\
+\cb4     \cf6 \strokec6 <\cf7 \strokec7 script\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cb4         \cf7 \strokec7 let\cf2 \strokec2  \strokec11 userRole\strokec2  = \cf9 \strokec9 ''\cf2 \strokec2 ; \cf7 \strokec7 let\cf2 \strokec2  \strokec11 userWilayah\strokec2  = \cf9 \strokec9 ''\cf2 \strokec2 ;\cb1 \
+\
+\cb4         \cf7 \strokec7 function\cf2 \strokec2  \strokec11 showView\strokec2 (\strokec11 viewId\strokec2 , \strokec11 roleContext\strokec2  = \cf9 \strokec9 ''\cf2 \strokec2 ) \{\cb1 \
+\cb4             \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'view-home'\cf2 \strokec2 ).\strokec11 classList\strokec2 .\strokec11 add\strokec2 (\cf9 \strokec9 'hidden'\cf2 \strokec2 );\cb1 \
+\cb4             \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'view-login'\cf2 \strokec2 ).\strokec11 classList\strokec2 .\strokec11 add\strokec2 (\cf9 \strokec9 'hidden'\cf2 \strokec2 );\cb1 \
+\cb4             \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'view-dashboard'\cf2 \strokec2 ).\strokec11 classList\strokec2 .\strokec11 add\strokec2 (\cf9 \strokec9 'hidden'\cf2 \strokec2 );\cb1 \
+\
+\cb4             \cf7 \strokec7 if\cf2 \strokec2 (\strokec11 viewId\strokec2  === \cf9 \strokec9 'home'\cf2 \strokec2 ) \{\cb1 \
+\cb4                 \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'btnLogout'\cf2 \strokec2 ).\strokec11 classList\strokec2 .\strokec11 add\strokec2 (\cf9 \strokec9 'hidden'\cf2 \strokec2 );\cb1 \
+\cb4                 \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'view-home'\cf2 \strokec2 ).\strokec11 classList\strokec2 .\strokec11 remove\strokec2 (\cf9 \strokec9 'hidden'\cf2 \strokec2 );\cb1 \
+\cb4             \} \cf7 \strokec7 else\cf2 \strokec2  \{\cb1 \
+\cb4                 \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'view-'\cf2 \strokec2  + \strokec11 viewId\strokec2 ).\strokec11 classList\strokec2 .\strokec11 remove\strokec2 (\cf9 \strokec9 'hidden'\cf2 \strokec2 );\cb1 \
+\cb4                 \cf7 \strokec7 if\cf2 \strokec2 (\strokec11 viewId\strokec2  === \cf9 \strokec9 'login'\cf2 \strokec2 ) \{\cb1 \
+\cb4                     \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'formLogin'\cf2 \strokec2 ).\strokec11 reset\strokec2 ();\cb1 \
+\cb4                     \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'login-title'\cf2 \strokec2 ).\strokec11 innerText\strokec2  = \strokec11 roleContext\strokec2  === \cf9 \strokec9 'official'\cf2 \strokec2  ? \cf9 \strokec9 'Login Official Kecamatan'\cf2 \strokec2  : \cf9 \strokec9 'Login Panitia Pusat'\cf2 \strokec2 ;\cb1 \
+\cb4                 \}\cb1 \
+\cb4             \}\cb1 \
+\cb4         \}\cb1 \
+\
+\cb4         \cf7 \strokec7 function\cf2 \strokec2  \strokec11 toggleLoader\strokec2 (\strokec11 show\strokec2 , \strokec11 text\strokec2  = \cf9 \strokec9 'Memproses Data...'\cf2 \strokec2 ) \{\cb1 \
+\cb4             \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'loader-text'\cf2 \strokec2 ).\strokec11 innerHTML\strokec2  = \strokec11 text\strokec2  + \cf9 \strokec9 '<br><span class="text-sm font-normal text-yellow-300">Jangan tutup atau refresh halaman ini!</span>'\cf2 \strokec2 ;\cb1 \
+\cb4             \strokec11 show\strokec2  ? \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'loader-overlay'\cf2 \strokec2 ).\strokec11 classList\strokec2 .\strokec11 remove\strokec2 (\cf9 \strokec9 'hidden'\cf2 \strokec2 ) : \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'loader-overlay'\cf2 \strokec2 ).\strokec11 classList\strokec2 .\strokec11 add\strokec2 (\cf9 \strokec9 'hidden'\cf2 \strokec2 );\cb1 \
+\cb4         \}\cb1 \
+\
+\cb4         \cf7 \strokec7 function\cf2 \strokec2  \strokec11 showMessage\strokec2 (\strokec11 msg\strokec2 , \strokec11 type\strokec2  = \cf9 \strokec9 'success'\cf2 \strokec2 ) \{\cb1 \
+\cb4             \cf7 \strokec7 const\cf2 \strokec2  \strokec11 toast\strokec2  = \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'toast'\cf2 \strokec2 );\cb1 \
+\cb4             \strokec11 toast\strokec2 .\strokec11 innerText\strokec2  = \strokec11 msg\strokec2 ; \strokec11 toast\strokec2 .\strokec11 className\strokec2  = \cf9 \strokec9 ''\cf2 \strokec2 ; \strokec11 toast\strokec2 .\strokec11 classList\strokec2 .\strokec11 add\strokec2 (\cf9 \strokec9 'show'\cf2 \strokec2 , \strokec11 type\strokec2 );\cb1 \
+\cb4             \strokec11 setTimeout\strokec2 (() => \strokec11 toast\strokec2 .\strokec11 classList\strokec2 .\strokec11 remove\strokec2 (\cf9 \strokec9 'show'\cf2 \strokec2 , \strokec11 type\strokec2 ), \cf8 \strokec8 4000\cf2 \strokec2 );\cb1 \
+\cb4         \}\cb1 \
+\
+\cb4         \cf7 \strokec7 function\cf2 \strokec2  \strokec11 handleLogin\strokec2 (\strokec11 e\strokec2 ) \{\cb1 \
+\cb4             \strokec11 e\strokec2 .\strokec11 preventDefault\strokec2 ();\cb1 \
+\cb4             \cf7 \strokec7 const\cf2 \strokec2  \strokec11 id\strokec2  = \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'loginId'\cf2 \strokec2 ).\strokec11 value\strokec2 ;\cb1 \
+\cb4             \cf7 \strokec7 const\cf2 \strokec2  \strokec11 pass\strokec2  = \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'loginPass'\cf2 \strokec2 ).\strokec11 value\strokec2 ;\cb1 \
+\cb4             \strokec11 toggleLoader\strokec2 (\cf7 \strokec7 true\cf2 \strokec2 , \cf9 \strokec9 'Memverifikasi...'\cf2 \strokec2 );\cb1 \
+\
+\cb4             \strokec11 google\strokec2 .\strokec11 script\strokec2 .\strokec11 run\strokec2 .\strokec11 withSuccessHandler\strokec2 (\strokec11 res\strokec2  => \{\cb1 \
+\cb4                 \strokec11 toggleLoader\strokec2 (\cf7 \strokec7 false\cf2 \strokec2 );\cb1 \
+\cb4                 \cf7 \strokec7 if\cf2 \strokec2 (\strokec11 res\strokec2 .\strokec11 success\strokec2 ) \{\cb1 \
+\cb4                     \strokec11 userRole\strokec2  = \strokec11 res\strokec2 .\strokec11 role\strokec2 ; \strokec11 userWilayah\strokec2  = \strokec11 res\strokec2 .\strokec11 wilayah\strokec2 ;\cb1 \
+\cb4                     \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'btnLogout'\cf2 \strokec2 ).\strokec11 classList\strokec2 .\strokec11 remove\strokec2 (\cf9 \strokec9 'hidden'\cf2 \strokec2 );\cb1 \
+\cb4                     \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'dash-wilayah'\cf2 \strokec2 ).\strokec11 innerText\strokec2  = \strokec11 userWilayah\strokec2 ;\cb1 \
+\cb4                     \cf7 \strokec7 if\cf2 \strokec2 (\strokec11 userRole\strokec2  === \cf9 \strokec9 'admin'\cf2 \strokec2 ) \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'btnTambahPeserta'\cf2 \strokec2 ).\strokec11 classList\strokec2 .\strokec11 add\strokec2 (\cf9 \strokec9 'hidden'\cf2 \strokec2 );\cb1 \
+\cb4                     \cf7 \strokec7 else\cf2 \strokec2  \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'btnTambahPeserta'\cf2 \strokec2 ).\strokec11 classList\strokec2 .\strokec11 remove\strokec2 (\cf9 \strokec9 'hidden'\cf2 \strokec2 );\cb1 \
+\cb4                     \strokec11 showView\strokec2 (\cf9 \strokec9 'dashboard'\cf2 \strokec2 ); \strokec11 loadDashboardData\strokec2 ();\cb1 \
+\cb4                 \} \cf7 \strokec7 else\cf2 \strokec2  \strokec11 showMessage\strokec2 (\strokec11 res\strokec2 .\strokec11 message\strokec2 , \cf9 \strokec9 'error'\cf2 \strokec2 );\cb1 \
+\cb4             \}).\strokec11 loginUser\strokec2 (\strokec11 id\strokec2 , \strokec11 pass\strokec2 );\cb1 \
+\cb4         \}\cb1 \
+\
+\cb4         \cf7 \strokec7 function\cf2 \strokec2  \strokec11 loadDashboardData\strokec2 () \{\cb1 \
+\cb4             \strokec11 toggleLoader\strokec2 (\cf7 \strokec7 true\cf2 \strokec2 , \cf9 \strokec9 'Memuat Database...'\cf2 \strokec2 );\cb1 \
+\cb4             \strokec11 google\strokec2 .\strokec11 script\strokec2 .\strokec11 run\strokec2 .\strokec11 withSuccessHandler\strokec2 (\strokec11 list\strokec2  => \{\cb1 \
+\cb4                 \strokec11 toggleLoader\strokec2 (\cf7 \strokec7 false\cf2 \strokec2 );\cb1 \
+\cb4                 \cf7 \strokec7 const\cf2 \strokec2  \strokec11 tbody\strokec2  = \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'table-body'\cf2 \strokec2 );\cb1 \
+\cb4                 \strokec11 tbody\strokec2 .\strokec11 innerHTML\strokec2  = \cf9 \strokec9 ''\cf2 \strokec2 ;\cb1 \
+\cb4                 \cf7 \strokec7 if\cf2 \strokec2 (!\strokec11 list\strokec2  || \strokec11 list\strokec2 .\strokec11 length\strokec2  === \cf8 \strokec8 0\cf2 \strokec2 ) \{\cb1 \
+\cb4                     \strokec11 tbody\strokec2 .\strokec11 innerHTML\strokec2  = \cf9 \strokec9 `<tr><td colspan="4" class="text-center py-6 text-gray-500 italic">Belum ada biodata peserta.</td></tr>`\cf2 \strokec2 ;\cb1 \
+\cb4                     \cf7 \strokec7 return\cf2 \strokec2 ;\cb1 \
+\cb4                 \}\cb1 \
+\
+\cb4                 \strokec11 list\strokec2 .\strokec11 forEach\strokec2 ((\strokec11 p\strokec2 , \strokec11 idx\strokec2 ) => \{\cb1 \
+\cb4                     \cf7 \strokec7 const\cf2 \strokec2  \strokec11 rowClass\strokec2  = \strokec11 idx\strokec2  % \cf8 \strokec8 2\cf2 \strokec2  === \cf8 \strokec8 0\cf2 \strokec2  ? \cf9 \strokec9 'bg-white'\cf2 \strokec2  : \cf9 \strokec9 'bg-gray-50'\cf2 \strokec2 ;\cb1 \
+\cb4                     \cf7 \strokec7 let\cf2 \strokec2  \strokec11 sFoto\strokec2  = \strokec11 p\strokec2 .\strokec11 foto\strokec2  ? \cf9 \strokec9 `<a href="\cf2 \strokec2 $\{\strokec11 p\strokec2 .\strokec11 foto\strokec2 \}\cf9 \strokec9 " target="_blank" class="text-blue-600 hover:underline inline-block mx-1" title="Lihat Foto"><i class="fa-solid fa-image text-green-500"></i> Foto</a>`\cf2 \strokec2  : \cf9 \strokec9 `<span class="text-gray-400 mx-1">Foto</span>`\cf2 \strokec2 ;\cb1 \
+\cb4                     \cf7 \strokec7 let\cf2 \strokec2  \strokec11 sKk\strokec2  = \strokec11 p\strokec2 .\strokec11 kk\strokec2  ? \cf9 \strokec9 `<a href="\cf2 \strokec2 $\{\strokec11 p\strokec2 .\strokec11 kk\strokec2 \}\cf9 \strokec9 " target="_blank" class="text-blue-600 hover:underline inline-block mx-1" title="Lihat KK"><i class="fa-solid fa-file-lines text-green-500"></i> KK</a>`\cf2 \strokec2  : \cf9 \strokec9 `<span class="text-gray-400 mx-1">KK</span>`\cf2 \strokec2 ;\cb1 \
+\cb4                     \cf7 \strokec7 let\cf2 \strokec2  \strokec11 sKtp\strokec2  = \strokec11 p\strokec2 .\strokec11 ktp\strokec2  ? \cf9 \strokec9 `<a href="\cf2 \strokec2 $\{\strokec11 p\strokec2 .\strokec11 ktp\strokec2 \}\cf9 \strokec9 " target="_blank" class="text-blue-600 hover:underline inline-block mx-1" title="Lihat KTP"><i class="fa-solid fa-address-card text-green-500"></i> KTP</a>`\cf2 \strokec2  : \cf9 \strokec9 `<span class="text-gray-400 mx-1">KTP</span>`\cf2 \strokec2 ;\cb1 \
+\cb4                     \cb1 \
+\cb4                     \cf7 \strokec7 let\cf2 \strokec2  \strokec11 btnCetak\strokec2  = \cf9 \strokec9 `<button onclick="handleCetakPDF('\cf2 \strokec2 $\{\strokec11 p\strokec2 .\strokec11 id\strokec2 \}\cf9 \strokec9 ')" class="bg-mtq text-white hover:bg-mtq-dark shadow px-3 py-1.5 rounded text-xs font-bold m-1 flex items-center justify-center w-full"><i class="fa-solid fa-print mr-2"></i> Cetak Kartu PDF</button>`\cf2 \strokec2 ;\cb1 \
+\
+\cb4                     \strokec11 tbody\strokec2 .\strokec11 innerHTML\strokec2  += \cf9 \strokec9 `\cf2 \cb1 \strokec2 \
+\pard\pardeftab720\partightenfactor0
+\cf9 \cb4 \strokec9                         <tr class="\cf2 \strokec2 $\{\strokec11 rowClass\strokec2 \}\cf9 \strokec9  border-b hover:bg-blue-50">\cf2 \cb1 \strokec2 \
+\cf9 \cb4 \strokec9                             <td class="py-3 px-4"><span class="font-bold text-gray-700">\cf2 \strokec2 $\{\strokec11 p\strokec2 .\strokec11 id\strokec2 \}\cf9 \strokec9 </span><br><span class="text-xs text-gray-500 font-mono">\cf2 \strokec2 $\{\strokec11 p\strokec2 .\strokec11 nik\strokec2 \}\cf9 \strokec9 </span></td>\cf2 \cb1 \strokec2 \
+\cf9 \cb4 \strokec9                             <td class="py-3 px-4"><span class="font-bold text-sm">\cf2 \strokec2 $\{\strokec11 p\strokec2 .\strokec11 nama\strokec2 \}\cf9 \strokec9 </span><br><span class="text-[11px] font-semibold text-blue-700 bg-blue-100 px-1.5 py-0.5 rounded mt-1 inline-block">\cf2 \strokec2 $\{\strokec11 p\strokec2 .\strokec11 cabang\strokec2 \}\cf9 \strokec9 </span></td>\cf2 \cb1 \strokec2 \
+\cf9 \cb4 \strokec9                             <td class="py-3 px-4 text-center text-xs font-semibold">\cf2 \strokec2 $\{\strokec11 sFoto\strokec2 \}\cf9 \strokec9  | \cf2 \strokec2 $\{\strokec11 sKk\strokec2 \}\cf9 \strokec9  | \cf2 \strokec2 $\{\strokec11 sKtp\strokec2 \}\cf9 \strokec9 </td>\cf2 \cb1 \strokec2 \
+\cf9 \cb4 \strokec9                             <td class="py-3 px-4 text-center w-32">\cf2 \strokec2 $\{\strokec11 btnCetak\strokec2 \}\cf9 \strokec9 </td>\cf2 \cb1 \strokec2 \
+\cf9 \cb4 \strokec9                         </tr>\cf2 \cb1 \strokec2 \
+\cf9 \cb4 \strokec9                     `\cf2 \strokec2 ;\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb4                 \});\cb1 \
+\cb4             \}).\strokec11 getPesertaData\strokec2 (\strokec11 userRole\strokec2 , \strokec11 userWilayah\strokec2 );\cb1 \
+\cb4         \}\cb1 \
+\
+\cb4         \cf7 \strokec7 function\cf2 \strokec2  \strokec11 openAddModal\strokec2 () \{ \cb1 \
+\cb4             \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'formAdd'\cf2 \strokec2 ).\strokec11 reset\strokec2 (); \cb1 \
+\cb4             \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'modal-add'\cf2 \strokec2 ).\strokec11 classList\strokec2 .\strokec11 remove\strokec2 (\cf9 \strokec9 'hidden'\cf2 \strokec2 ); \cb1 \
+\cb4         \}\cb1 \
+\cb4         \cf7 \strokec7 function\cf2 \strokec2  \strokec11 closeAddModal\strokec2 () \{ \cb1 \
+\cb4             \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'modal-add'\cf2 \strokec2 ).\strokec11 classList\strokec2 .\strokec11 add\strokec2 (\cf9 \strokec9 'hidden'\cf2 \strokec2 ); \cb1 \
+\cb4         \}\cb1 \
+\cb4         \cb1 \
+\cb4         \cf7 \strokec7 function\cf2 \strokec2  \strokec11 getBase64\strokec2 (\strokec11 file\strokec2 ) \{\cb1 \
+\cb4             \cf7 \strokec7 return\cf2 \strokec2  \cf7 \strokec7 new\cf2 \strokec2  \cf12 \strokec12 Promise\cf2 \strokec2 ((\strokec11 resolve\strokec2 , \strokec11 reject\strokec2 ) => \{\cb1 \
+\cb4                 \cf7 \strokec7 if\cf2 \strokec2 (!\strokec11 file\strokec2 ) \strokec11 resolve\strokec2 (\cf7 \strokec7 null\cf2 \strokec2 );\cb1 \
+\cb4                 \cf7 \strokec7 const\cf2 \strokec2  \strokec11 reader\strokec2  = \cf7 \strokec7 new\cf2 \strokec2  \cf12 \strokec12 FileReader\cf2 \strokec2 (); \cb1 \
+\cb4                 \strokec11 reader\strokec2 .\strokec11 readAsDataURL\strokec2 (\strokec11 file\strokec2 );\cb1 \
+\cb4                 \strokec11 reader\strokec2 .\strokec11 onload\strokec2  = () => \strokec11 resolve\strokec2 (\strokec11 reader\strokec2 .\strokec11 result\strokec2 ); \cb1 \
+\cb4                 \strokec11 reader\strokec2 .\strokec11 onerror\strokec2  = \strokec11 error\strokec2  => \strokec11 reject\strokec2 (\strokec11 error\strokec2 );\cb1 \
+\cb4             \});\cb1 \
+\cb4         \}\cb1 \
+\
+\cb4         \cf7 \strokec7 async\cf2 \strokec2  \cf7 \strokec7 function\cf2 \strokec2  \strokec11 handleAddPeserta\strokec2 (\strokec11 e\strokec2 ) \{\cb1 \
+\cb4             \strokec11 e\strokec2 .\strokec11 preventDefault\strokec2 ();\cb1 \
+\cb4             \cb1 \
+\cb4             \cf7 \strokec7 const\cf2 \strokec2  \strokec11 fFoto\strokec2  = \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'addFoto'\cf2 \strokec2 ).\strokec11 files\strokec2 [\cf8 \strokec8 0\cf2 \strokec2 ];\cb1 \
+\cb4             \cf7 \strokec7 const\cf2 \strokec2  \strokec11 fKk\strokec2  = \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'addKk'\cf2 \strokec2 ).\strokec11 files\strokec2 [\cf8 \strokec8 0\cf2 \strokec2 ];\cb1 \
+\cb4             \cf7 \strokec7 const\cf2 \strokec2  \strokec11 fKtp\strokec2  = \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'addKtp'\cf2 \strokec2 ).\strokec11 files\strokec2 [\cf8 \strokec8 0\cf2 \strokec2 ]; \cf16 \strokec16 // KTP is optional\cf2 \cb1 \strokec2 \
+\
+\cb4             \cf7 \strokec7 if\cf2 \strokec2 (!\strokec11 fFoto\strokec2  || !\strokec11 fKk\strokec2 ) \{\cb1 \
+\cb4                 \cf7 \strokec7 return\cf2 \strokec2  \strokec11 showMessage\strokec2 (\cf9 \strokec9 'Foto dan Kartu Keluarga Wajib dilampirkan!'\cf2 \strokec2 , \cf9 \strokec9 'error'\cf2 \strokec2 );\cb1 \
+\cb4             \}\cb1 \
+\
+\cb4             \strokec11 closeAddModal\strokec2 (); \cb1 \
+\cb4             \strokec11 toggleLoader\strokec2 (\cf7 \strokec7 true\cf2 \strokec2 , \cf9 \strokec9 'Sedang menyimpan biodata & mengunggah file ke Drive...'\cf2 \strokec2 );\cb1 \
+\cb4             \cb1 \
+\cb4             \cf7 \strokec7 try\cf2 \strokec2  \{\cb1 \
+\cb4                 \cf16 \strokec16 // Konversi semua file ke base64\cf2 \cb1 \strokec2 \
+\cb4                 \cf7 \strokec7 const\cf2 \strokec2  [\strokec11 dFoto\strokec2 , \strokec11 dKk\strokec2 , \strokec11 dKtp\strokec2 ] = \cf7 \strokec7 await\cf2 \strokec2  \cf12 \strokec12 Promise\cf2 \strokec2 .\strokec11 all\strokec2 ([\cb1 \
+\cb4                     \strokec11 getBase64\strokec2 (\strokec11 fFoto\strokec2 ), \cb1 \
+\cb4                     \strokec11 getBase64\strokec2 (\strokec11 fKk\strokec2 ), \cb1 \
+\cb4                     \strokec11 getBase64\strokec2 (\strokec11 fKtp\strokec2 )\cb1 \
+\cb4                 ]);\cb1 \
+\
+\cb4                 \cf7 \strokec7 const\cf2 \strokec2  \strokec11 dataForm\strokec2  = \{\cb1 \
+\cb4                     \strokec11 nik\strokec2 : \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'addNik'\cf2 \strokec2 ).\strokec11 value\strokec2 , \cb1 \
+\cb4                     \strokec11 nama\strokec2 : \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'addNama'\cf2 \strokec2 ).\strokec11 value\strokec2 ,\cb1 \
+\cb4                     \strokec11 tempatLahir\strokec2 : \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'addTempat'\cf2 \strokec2 ).\strokec11 value\strokec2 , \cb1 \
+\cb4                     \strokec11 tglLahir\strokec2 : \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'addTgl'\cf2 \strokec2 ).\strokec11 value\strokec2 ,\cb1 \
+\cb4                     \strokec11 jk\strokec2 : \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'addJk'\cf2 \strokec2 ).\strokec11 value\strokec2 , \cb1 \
+\cb4                     \strokec11 telp\strokec2 : \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'addTelp'\cf2 \strokec2 ).\strokec11 value\strokec2 ,\cb1 \
+\cb4                     \strokec11 alamat\strokec2 : \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'addAlamat'\cf2 \strokec2 ).\strokec11 value\strokec2 , \cb1 \
+\cb4                     \strokec11 cabang\strokec2 : \strokec11 document\strokec2 .\strokec11 getElementById\strokec2 (\cf9 \strokec9 'addCabang'\cf2 \strokec2 ).\strokec11 value\strokec2 ,\cb1 \
+\cb4                     \strokec11 kecamatan\strokec2 : \strokec11 userWilayah\strokec2 ,\cb1 \
+\cb4                     \strokec11 fotoData\strokec2 : \strokec11 dFoto\strokec2 , \strokec11 fotoName\strokec2 : \strokec11 fFoto\strokec2 .\strokec11 name\strokec2 ,\cb1 \
+\cb4                     \strokec11 kkData\strokec2 : \strokec11 dKk\strokec2 , \strokec11 kkName\strokec2 : \strokec11 fKk\strokec2 .\strokec11 name\strokec2 ,\cb1 \
+\cb4                     \strokec11 ktpData\strokec2 : \strokec11 dKtp\strokec2 , \strokec11 ktpName\strokec2 : \strokec11 fKtp\strokec2  ? \strokec11 fKtp\strokec2 .\strokec11 name\strokec2  : \cf7 \strokec7 null\cf2 \cb1 \strokec2 \
+\cb4                 \};\cb1 \
+\
+\cb4                 \cf16 \strokec16 // Kirim semua payload ke Apps Script\cf2 \cb1 \strokec2 \
+\cb4                 \strokec11 google\strokec2 .\strokec11 script\strokec2 .\strokec11 run\strokec2 .\strokec11 withSuccessHandler\strokec2 (\strokec11 res\strokec2  => \{\cb1 \
+\cb4                     \strokec11 toggleLoader\strokec2 (\cf7 \strokec7 false\cf2 \strokec2 );\cb1 \
+\cb4                     \cf7 \strokec7 if\cf2 \strokec2 (\strokec11 res\strokec2 .\strokec11 success\strokec2 ) \{ \cb1 \
+\cb4                         \strokec11 showMessage\strokec2 (\strokec11 res\strokec2 .\strokec11 message\strokec2 , \cf9 \strokec9 'success'\cf2 \strokec2 ); \cb1 \
+\cb4                         \strokec11 loadDashboardData\strokec2 (); \cb1 \
+\cb4                     \} \cf7 \strokec7 else\cf2 \strokec2  \{\cb1 \
+\cb4                         \strokec11 showMessage\strokec2 (\strokec11 res\strokec2 .\strokec11 message\strokec2 , \cf9 \strokec9 'error'\cf2 \strokec2 );\cb1 \
+\cb4                     \}\cb1 \
+\cb4                 \}).\strokec11 tambahPesertaTerpadu\strokec2 (\strokec11 dataForm\strokec2 );\cb1 \
+\
+\cb4             \} \cf7 \strokec7 catch\cf2 \strokec2  (\strokec11 err\strokec2 ) \{\cb1 \
+\cb4                 \strokec11 toggleLoader\strokec2 (\cf7 \strokec7 false\cf2 \strokec2 );\cb1 \
+\cb4                 \strokec11 showMessage\strokec2 (\cf9 \strokec9 'Terjadi kesalahan saat membaca file. Pastikan ukuran tidak terlalu besar.'\cf2 \strokec2 , \cf9 \strokec9 'error'\cf2 \strokec2 );\cb1 \
+\cb4             \}\cb1 \
+\cb4         \}\cb1 \
+\
+\cb4         \cf7 \strokec7 function\cf2 \strokec2  \strokec11 handleCetakPDF\strokec2 (\strokec11 idPeserta\strokec2 ) \{\cb1 \
+\cb4             \strokec11 toggleLoader\strokec2 (\cf7 \strokec7 true\cf2 \strokec2 , \cf9 \strokec9 'Menyiapkan Dokumen PDF (Memakan waktu beberapa detik)...'\cf2 \strokec2 );\cb1 \
+\cb4             \strokec11 google\strokec2 .\strokec11 script\strokec2 .\strokec11 run\strokec2 .\strokec11 withSuccessHandler\strokec2 (\strokec11 url\strokec2  => \{\cb1 \
+\cb4                 \strokec11 toggleLoader\strokec2 (\cf7 \strokec7 false\cf2 \strokec2 );\cb1 \
+\cb4                 \cf7 \strokec7 if\cf2 \strokec2 (\strokec11 url\strokec2 ) \{ \cb1 \
+\cb4                     \strokec11 showMessage\strokec2 (\cf9 \strokec9 'Dokumen siap dan telah dibuka!'\cf2 \strokec2 , \cf9 \strokec9 'success'\cf2 \strokec2 ); \cb1 \
+\cb4                     \strokec11 window\strokec2 .\strokec11 open\strokec2 (\strokec11 url\strokec2 , \cf9 \strokec9 '_blank'\cf2 \strokec2 ); \cb1 \
+\cb4                 \} \cf7 \strokec7 else\cf2 \strokec2  \{\cb1 \
+\cb4                     \strokec11 showMessage\strokec2 (\cf9 \strokec9 'Gagal mencetak dokumen.'\cf2 \strokec2 , \cf9 \strokec9 'error'\cf2 \strokec2 );\cb1 \
+\cb4                 \}\cb1 \
+\cb4             \}).\strokec11 cetakPdfPeserta\strokec2 (\strokec11 idPeserta\strokec2 );\cb1 \
+\cb4         \}\cb1 \
+\
+\cb4         \cf7 \strokec7 function\cf2 \strokec2  \strokec11 logout\strokec2 () \{ \strokec11 userRole\strokec2  = \cf9 \strokec9 ''\cf2 \strokec2 ; \strokec11 userWilayah\strokec2  = \cf9 \strokec9 ''\cf2 \strokec2 ; \strokec11 showView\strokec2 (\cf9 \strokec9 'home'\cf2 \strokec2 ); \strokec11 showMessage\strokec2 (\cf9 \strokec9 'Keluar sistem.'\cf2 \strokec2 , \cf9 \strokec9 'success'\cf2 \strokec2 ); \}\cb1 \
+\cb4         \strokec11 showView\strokec2 (\cf9 \strokec9 'home'\cf2 \strokec2 );\cb1 \
+\cb4     \cf6 \strokec6 </\cf7 \strokec7 script\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb4 \strokec6 </\cf7 \strokec7 body\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\cf6 \cb4 \strokec6 </\cf7 \strokec7 html\cf6 \strokec6 >\cf2 \cb1 \strokec2 \
+\
+\
+\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb4 ```\cb1 \
+\
+}
